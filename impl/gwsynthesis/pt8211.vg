@@ -1,7 +1,7 @@
 //
 //Written by GowinSynthesis
 //Tool Version "V1.9.11"
-//Mon Jun 23 11:54:53 2025
+//Mon Jun 23 15:25:46 2025
 
 //Source file index table:
 //file0 "\/home/alberto/PT8211/src/gowin_clkdiv/gowin_clkdiv.v"
@@ -98,13 +98,13 @@ defparam clkdiv_inst.GSREN="false";
 );
 endmodule /* Gowin_CLKDIV */
 module rom_save_sin (
-  clk_6m_w,
+  HP_BCK_d,
   n71_6,
   addr_r,
   q_w_right
 )
 ;
-input clk_6m_w;
+input HP_BCK_d;
 input n71_6;
 input [7:0] addr_r;
 output [15:0] q_w_right;
@@ -114,7 +114,7 @@ wire GND;
   pROM q_w_right_0_s (
     .DO({DO[31:16],q_w_right[15:0]}),
     .AD({GND,GND,addr_r[7:0],GND,GND,VCC,VCC}),
-    .CLK(clk_6m_w),
+    .CLK(HP_BCK_d),
     .CE(VCC),
     .OCE(GND),
     .RESET(n71_6) 
@@ -1766,7 +1766,7 @@ defparam n73_s.ALU_MODE=0;
     .HP_BCK_d(HP_BCK_d)
 );
   rom_save_sin rom_save_sin_inst (
-    .clk_6m_w(clk_6m_w),
+    .HP_BCK_d(HP_BCK_d),
     .n71_6(n71_6),
     .addr_r(addr_r[7:0]),
     .q_w_right(q_w_right[15:0])

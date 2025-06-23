@@ -61,7 +61,7 @@ else
         dac_value_left <= dac_value_left;
 
 rom_save_sin rom_save_sin_inst(
-.clk(clk_6m_w),
+.clk(clk_1p5m_w),
 .rst_n(rst_n),
 .addr(addr_r[7:0]),
 .data(q_w_right)
