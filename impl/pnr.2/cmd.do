@@ -1,0 +1,17 @@
+-d /home/alberto/PT8211/impl/gwsynthesis/pt8211.vg
+-p GW2A-18-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst /home/alberto/PT8211/src/pinmap.cst
+-cfg /home/alberto/PT8211/impl/pnr/device.cfg
+-sdc /home/alberto/PT8211/src/timing.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-place_option 0
+-route_option 0
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000

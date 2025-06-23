@@ -1,0 +1,44 @@
+[
+ {
+  "InstFile" : "/home/alberto/PT8211/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "/home/alberto/PT8211/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/alberto/PT8211/src/top.v",
+    "InstLine" : 24,
+    "InstName" : "pll_27m_6m",
+    "ModuleFile" : "/home/alberto/PT8211/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "/home/alberto/PT8211/src/top.v",
+    "InstLine" : 30,
+    "InstName" : "clk_div4",
+    "ModuleFile" : "/home/alberto/PT8211/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "/home/alberto/PT8211/src/top.v",
+    "InstLine" : 63,
+    "InstName" : "rom_save_sin_inst",
+    "ModuleFile" : "/home/alberto/PT8211/src/rom_wave_sine.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "rom_save_sin"
+   },
+   {
+    "InstFile" : "/home/alberto/PT8211/src/top.v",
+    "InstLine" : 71,
+    "InstName" : "u_pt8211_drive_0",
+    "ModuleFile" : "/home/alberto/PT8211/src/pt8211_drive.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "pt8211_drive"
+   }
+  ]
+ }
+]

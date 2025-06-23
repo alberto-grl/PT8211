@@ -1,0 +1,33 @@
+{
+ "Device" : "GW2A-18",
+ "Files" : [
+  {
+   "Path" : "/home/alberto/PT8211/src/gowin_clkdiv/gowin_clkdiv.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/alberto/PT8211/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/alberto/PT8211/src/pt8211_drive.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/alberto/PT8211/src/rom_wave_sine.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "/home/alberto/PT8211/src/top.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "/home/alberto/PT8211/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

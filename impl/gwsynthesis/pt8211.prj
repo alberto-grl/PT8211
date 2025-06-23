@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2A-18" package="PBGA256" speed="8" partNumber="GW2A-LV18PG256C8/I7"/>
+    <FileList>
+        <File path="/home/alberto/PT8211/src/gowin_clkdiv/gowin_clkdiv.v" type="verilog"/>
+        <File path="/home/alberto/PT8211/src/gowin_rpll/gowin_rpll.v" type="verilog"/>
+        <File path="/home/alberto/PT8211/src/pt8211_drive.v" type="verilog"/>
+        <File path="/home/alberto/PT8211/src/rom_wave_sine.v" type="verilog"/>
+        <File path="/home/alberto/PT8211/src/top.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="/home/alberto/PT8211/impl/gwsynthesis/pt8211.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="top"/>
+        <Option type="vcc" value="1.0"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>
